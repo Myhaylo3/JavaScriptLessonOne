@@ -4,12 +4,12 @@ for (let i = 0; i < myArray.length; i++) {
     console.log(`Елемент ${i + 1}:`, myArray[i]);
 }
 
-// Об'єкти, що описують книги
+
 const book1 = { title: 'The Great Gatsby', pageCount: 200, genre: 'Fiction' };
 const book2 = { title: 'To Kill a Mockingbird', pageCount: 300, genre: 'Drama' };
 const book3 = { title: '1984', pageCount: 250, genre: 'Science Fiction' };
 
-// Об'єкти, що описують книги з авторами
+
 const author1 = { name: 'Author 1', age: 35 };
 const author2 = { name: 'Author 2', age: 42 };
 const bookWithAuthors1 = { title: 'Book with Authors 1', pageCount: 150, genre: 'Mystery', authors: [author1, author2] };
@@ -18,7 +18,7 @@ const author3 = { name: 'Author 3', age: 28 };
 const author4 = { name: 'Author 4', age: 50 };
 const bookWithAuthors2 = { title: 'Book with Authors 2', pageCount: 180, genre: 'Thriller', authors: [author3, author4] };
 
-// Масив користувачів
+
 const users = [
     { name: 'User 1', username: 'user1', password: 'password1' },
     { name: 'User 2', username: 'user2', password: 'password2' },
@@ -32,10 +32,13 @@ const users = [
     { name: 'User 10', username: 'user10', password: 'password10' },
 ];
 
-// Виведення паролів користувачів в консоль
+
 users.forEach(user => {
     console.log(`Пароль користувача ${user.username}: ${user.password}`);
 });
+
+
+
 //
 // Масиви та об'єкти:
 // - Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
@@ -52,7 +55,7 @@ users.forEach(user => {
 
 
 
-// Логічне розгалуження для перевірки змінної x:
+
 let x = 1;
 
 if (x !== 0) {
@@ -60,7 +63,7 @@ if (x !== 0) {
 } else {
     console.log('Невірно');
 }
-// Перевірка до якої четверті години попадає число time:
+
 let time = 37;
 
 if (time >= 0 && time <= 59) {
@@ -76,7 +79,7 @@ if (time >= 0 && time <= 59) {
 } else {
     console.log('Число повинно бути в діапазоні від 0 до 59');
 }
-// Визначення половини (декади) місяця за числом day:
+
 let day = 17;
 
 if (day >= 1 && day <= 31) {
@@ -90,7 +93,7 @@ if (day >= 1 && day <= 31) {
 } else {
     console.log('Число повинно бути в діапазоні від 1 до 31');
 }
-// Розклад на тиждень з використанням switch:
+
 let dayOfWeek = 3;
 
 switch (dayOfWeek) {
@@ -118,7 +121,7 @@ switch (dayOfWeek) {
     default:
         console.log('Неправильний номер дня тижня');
 }
-// Знаходження та виведення максимального числа:
+
 let num1 = 10;
 let num2 = 20;
 
